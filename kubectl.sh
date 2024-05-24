@@ -16,3 +16,5 @@ sudo chmod 644 /etc/apt/sources.list.d/kubernetes.list   # helps tools such as c
 
 sudo apt-get update
 sudo apt-get install -y kubectl
+
+kubectl version
